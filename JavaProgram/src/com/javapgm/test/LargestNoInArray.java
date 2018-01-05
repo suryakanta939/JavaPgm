@@ -18,7 +18,7 @@ public class LargestNoInArray {
 			}
 		}
 		System.out.println("largets no is "+largest);
-		System.out.println("smallest no is "+smallest);
+		System.out.println("smallest no is "+smallest);	
 	}
 
 }

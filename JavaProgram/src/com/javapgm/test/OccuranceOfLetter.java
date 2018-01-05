@@ -9,7 +9,6 @@ public class OccuranceOfLetter {
 	public static void main(String[] args) {
 		String name="suryakanta";
 		
-		
 		for(int i=0;i<name.length();i++){
 			char c=name.charAt(i);
 			String newWord=name.replaceAll(c+"","");

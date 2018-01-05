@@ -14,8 +14,11 @@ public class MissingNo {
 		/*
 		 * shorting the array
 		 * */
+		
 		Arrays.sort(arr);
+		
 		/*get the largest and give it as limit*/
+		
 		int largeno=findTheLargsetNo(arr);
 		int j=0;
 		for(int i=1;i<largeno;i++){
@@ -26,7 +29,7 @@ public class MissingNo {
 			}
 		}
 	}
-	
+
 	
 public static int findTheLargsetNo(int[] arr){
 	int largest=arr[0];
@@ -43,5 +46,6 @@ public static int findTheLargsetNo(int[] arr){
 	System.out.println("largset "+largest);
 	System.out.println("smallest "+smallest);
 	return largest;
-}
+  }
+
 }
