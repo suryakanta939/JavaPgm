@@ -7,7 +7,7 @@ import java.util.List;
 public class DuplicateElementsInArray {
 
 	public static void main(String[] args) {
-		Object arr[]={11,23,43,11,55,23,55,"suriya","hari","suriya"};
+		Object arr[]={11,23,43,11,55,23,55,"suriya","hari","suriya",23};
 		ArrayList<Object> lst=new ArrayList<>();
 		for(int i=0;i<arr.length;i++){
 			
